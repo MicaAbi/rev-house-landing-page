@@ -1,0 +1,32 @@
+/* font-family: 'Aleo', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background-color: #F6F8FF;
+    height: 50vh;
+}
+
+/* ========== LOGO ========== */
+
+#rev-logo {
+    font-family: 'Aleo', serif;
+    color: #31EDB0;
+    font-size: 1.6rem;
+}
+
+#house-logo {
+    font-family: 'Inter', sans-serif;
+    color: #475FE1;
+    font-size: 1.6rem;
+}
+
+/* ========== NAV BAR ========== */
+
+#navbar-button {
+    color: #475FE1;
+}
