@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    color: #3F3F3F;
 }
 
 /* ========== LOGO ========== */
@@ -16,7 +17,7 @@ body {
     font-size: 1.6rem;
 }
 
-/* ========== MAIN ========== */
+/* ========== MAIN - HOME ========== */
 
 /* ========== SECTION: HERO ========== */
 
@@ -173,6 +174,25 @@ footer p.email {
     font-weight: 400;
     color: #FFFFFF;
 }
+
+
+/* ========== MAIN - CONTACT ========== */
+
+/* ========== CONTACT FORM ========== */
+
+section.contact-form {
+    background-color: #F6F8FF;
+    padding: 30px;
+}
+
+section.contact-form form {
+    margin-bottom: 1.5rem;
+    border: #31EDB0 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
 
 
 /* ********** MEDIA QUERIES PANTALLA MD ********** */
