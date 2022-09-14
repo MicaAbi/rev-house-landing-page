@@ -20,12 +20,14 @@
 </head>
 
 <body>
+
     <!-- HEADER -->
     <header>
+
         <nav class="navbar navbar-expand-lg bg-white p-9">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><span id="rev-logo">REV</span><span id="house-logo">HOUSE</span></a>
-                <button id="navbar-button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,18 +47,120 @@
                 </div>
             </div>
         </nav>
+
     </header>
 
     <!-- MAIN CONTENT -->
     <main>
-        <section class="container-fluid d-flex">
-            <div class="col-sm-8 bg-info p-3">8</div>
-            <div class="col-sm-4 bg-warning p-3">4</div>
+
+        <!-- HERO SECTION -->
+        <section class="container-fluid mb-5" id="hero-container">
+            <div class="hero-img-wrapper position-relative">
+                <img class="img-hero position-absolute" src="./images/spacecraft.png" alt="spacecraft">
+            </div>
+            <div class="home-hero d-flex">
+                <div class="col-9">
+                    <div class="top-title-and-underline-wrapper">
+                        <div class="top-title-wrapper position-relative">
+                            <div class="top-title-shadow position-absolute"></div>
+                            <p class="text-hero fst-italic fs-4 position-absolute">Lift off now</p>
+                        </div>
+                    </div>
+                    <h2 class="text-hero fw-bold m-0">Build your dream team in record</h2>
+                    <div class="time-wrapper">
+                        <div class="time-container position-relative">
+                            <h1 class="text-hero shadow-text-hero fw-bold lh-1 position-absolute">TIME</h1>
+                            <h1 class="text-hero fw-bold lh-1 position-absolute">TIME</h1>
+                        </div>
+                    </div>
+                    <p class="col-10 mt-4 fs-6">Stop wasting time and money in IT recruitment.</p>
+                    <button class="hero-button">Hire Now</button>
+                </div>
+                <!-- <div class="hero-img-container col-3">
+                </div> -->
+            </div>
         </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="service-cards d-flex align-items-center container mb-4">
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Simple and lower cost</h5>
+                            <p class="card-text">Defined costs, neither more nor less than what you need. All in a single monthly payment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 position-relative">
+                    <!-- <div class="card-shadow position-absolute" style="background-color: aqua; width: 14rem; height:14rem; top:10px; right: 10px; border-radius: 20px"></div> -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Staff on Demand</h5>
+                            <p class="card-text">Top talent on demand, no risk, no hassle to scale your team.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Hire Quickly</h5>
+                            <p class="card-text">We build highly qualified, versatile, innovative, and empathetic teams in record time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="card position-relative col-sm-12 col-md-4" style="width: 18rem;">
+                <div class="card-shadow position-absolute"
+                    style="background-color: aquamarine; height: 18rem; width: 18rem; top: 10px; right: 10px; border-radius: 20px">
+                </div>
+                <div class="card-body position-absolute border border-danger">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div> -->
+
+        </section>
+
+        <!-- CLIENTS SECTION -->
+        <section class="clients-section px-4 pt-4 pb-5">
+            <h2 class="text-center mb-3">Some of the clients we work with</h2>
+            <div class="d-flex justify-content-center">
+                <h6 class="text-center mb-4">We're proud of what we do and who we do it with. That's why we say when you succeed, we succeed.</h6>
+            </div>
+            <div class="clients-logos d-flex justify-content-center flex-wrap">
+                <img src="./images/logo-coca.svg" alt="logo-coca">
+                <img src="./images/logo-santander.svg" alt="logo-santander">
+                <img src="./images/logo-danone.svg" alt="logo-danone.svg">
+                <img src="./images/logo-dell.svg" alt="logo-dell.svg">
+            </div>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="container-fluid d-flex flex-wrap px-0">
+        <figure class="footer-element logo-footer m-0 d-flex align-items-center justify-content-center">
+            <a class="footer-brand" href="#"><span class="rev-logo">REV</span><span class="house-logo">HOUSE</span></a>
+        </figure>
+        <section class="footer-element contact d-flex flex-column align-items-center justify-content-center">
+            <p class="phone">+54 9 351 7231103</p>
+            <p class="email">contact@revhouse.com</p>
+        </section>
+        <section class="footer-element social-media d-flex align-items-center justify-content-center">
+            <a class="mx-1" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="./images/logo-linkedin.svg" alt="logo-linkedin"></a>
+            <a class="mx-1" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="./images/logo-instagram.svg" alt="logo-linkedin"></a>
+            <a class="mx-1" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img src="./images/logo-whatsapp.svg" alt="logo-linkedin"></a>
+        </section>
     </footer>
 
     <!-- Bootstrap JS -->

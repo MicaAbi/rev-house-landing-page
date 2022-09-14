@@ -1,14 +1,5 @@
-/* font-family: 'Aleo', serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif; */
-
 body {
     font-family: 'Poppins', sans-serif;
-}
-
-main {
-    background-color: #F6F8FF;
-    height: 50vh;
 }
 
 /* ========== LOGO ========== */
@@ -25,8 +16,276 @@ main {
     font-size: 1.6rem;
 }
 
-/* ========== NAV BAR ========== */
+/* ========== MAIN ========== */
 
-#navbar-button {
+/* ========== SECTION: HERO ========== */
+
+#hero-container {
+    background-color: #F6F8FF;
+    padding: 22px;
+    overflow: hidden;
+    background-image: url("./images/spacecraft-1.png");
+    background-repeat: no-repeat;
+    background-position-x: 130%;
+    background-position-y: center;
+    background-size: 30%;
+}
+
+.home-hero {
+    z-index: 0;
+}
+
+/* 
+.home-hero div.col-9 {
+    padding-right: 20px;
+} */
+
+.top-title-and-underline-wrapper {
+    height: 60px;
+}
+
+.top-title-shadow {
+    background-color: #31EDB0;
+    width: 130px;
+    height: 18px;
+    left: 6px;
+    top: 18px;
+}
+
+.text-hero{
+    color: #3F3F3F;
+}
+
+h2.text-hero {
+    font-size: calc(1.6rem + 2vw);
+}
+
+.time-wrapper {
+    width: 100%;
+    height: 60px;
+}
+
+h1.text-hero {
+    font-size: 3.5rem;
+}
+
+h1.shadow-text-hero  {
+    color: #31EDB0;
+    top: 4px;
+    left: 4px;
+}
+
+.hero-button {
+    background-color: #475FE1;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 12px;
+    padding-bottom: 14px;
+    margin: 0px;
+}
+
+button.hero-button:hover {
+    background-color: #4d38c6;
+    transition: 300ms;
+}
+
+.img-hero {
+    width: 75vw;
+    max-width: 350px;
+    right: -120px;
+    transform: rotate(24deg);
+    top: 5vw;
+}
+
+
+/* ========== SECTION: SERVICES ========== */
+
+section.service-cards .card {
+    border: #31EDB0 1.5px solid;
+    padding: 1rem;
     color: #475FE1;
+}
+
+section.service-cards .card h5 {
+    font-weight: 600;
+}
+
+
+/* ========== SECTION: CLIENTS ========== */
+
+section.clients-section {
+    background-color: #F6F8FF;
+}
+
+section.clients-section h2 {
+    font-weight: 600;
+}
+
+section.clients-section h6 {
+    width: 85%;
+    color: #475FE1;
+}
+
+
+/* ========== FOOTER ========== */
+
+footer {
+    background-color: #475FE1;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-element {
+    width: 100%;
+    height: 75px;
+}
+
+a.footer-brand {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer figure span.rev-logo {
+    font-family: 'Aleo', serif;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+footer figure span.house-logo {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+footer p.phone {
+    margin: 0px;
+    font-weight: 600;
+    color: #31EDB0;
+}
+
+footer p.email {
+    margin: 0px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+/* ********** MEDIA QUERIES PANTALLA MD ********** */
+
+@media (min-width:650px) {
+
+    /* ========== SECTION: HERO ========== */
+    #hero-container {
+        background-color: #F6F8FF;
+        padding: 50px;
+    }
+    .home-hero div.col-9 {
+        padding-right: 60px;
+    }
+    h2.text-hero {
+        font-size: 3.5rem;
+    }
+    h1.text-hero {
+        font-size: 4.5rem;
+    }
+    .time-wrapper {
+        height: 80px;
+    }
+    .img-hero {
+        width: 75vw;
+        max-width: 365px;
+        right: -30px;
+        transform: rotate(30deg);
+        top: -4vw;
+    }
+
+
+    /* ========== SECTION: CLIENTS ========== */
+    section.clients-section h6 {
+        width: 60%;
+    }
+
+    
+    /* ========== FOOTER ========== */
+    footer {
+        padding: 0px;
+    }
+    .footer-element {
+        width: 33.33333%;
+        height: 150px;
+    }
+}
+
+@media (min-width:768px) {
+
+    /* ========== SECTION: SERVICES ========== */
+    section.service-cards {
+        min-height: 350px;
+    }
+    section.service-cards .card {
+        min-height: 267px;
+    }
+}
+
+
+
+/* ********** MEDIA QUERIES PANTALLA LG ********** */
+
+@media (min-width:970px) {
+    
+    /* ========== SECTION: HERO ========== */
+    #hero-container {
+        background-color: #F6F8FF;
+        padding: 50px 60px;
+    }
+    .home-hero div.col-9 {
+        padding-right: 100px;
+    }
+    h2.text-hero {
+        font-size: 5rem;
+    }
+    h1.text-hero {
+        font-size: 6rem;
+    }
+    .time-wrapper {
+        height: 100px;
+    }
+    .img-hero {
+        width: 75vw;
+        max-width: 500px;
+        right: -30px;
+        transform: rotate(30deg);
+        top: -2vw;
+    }
+
+    /* ========== SECTION: CLIENTS ========== */
+    section.clients-section h6 {
+        width: 48%;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    /* ========== SECTION: SERVICES ========== */
+    section.service-cards .card {
+        min-height: 194px;
+    }
+}
+
+
+
+/* ********** MEDIA QUERIES PANTALLA XL ********** */
+
+@media (min-width:1200px) {
+
+    /* ========== SECTION: SERVICES ========== */
+    section.service-cards .card {
+        min-height: 170px;
+    }
 }
