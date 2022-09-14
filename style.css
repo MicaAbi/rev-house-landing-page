@@ -115,6 +115,48 @@ section.service-cards .card h5 {
 }
 
 
+/* ========== FOOTER ========== */
+
+footer {
+    background-color: #475FE1;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-element {
+    width: 100%;
+    height: 75px;
+}
+
+a.footer-brand {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer figure span.rev-logo {
+    font-family: 'Aleo', serif;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+footer figure span.house-logo {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+footer p.phone {
+    margin: 0px;
+    font-weight: 600;
+    color: #31EDB0;
+}
+
+footer p.email {
+    margin: 0px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
 /* ********** MEDIA QUERIES PANTALLA MD ********** */
 
 @media (min-width:650px) {
@@ -147,6 +189,15 @@ section.service-cards .card h5 {
 
     /* ========== SECTION: SERVICES ========== */
 
+
+    /* ========== FOOTER ========== */
+    footer {
+        padding: 0px;
+    }
+    .footer-element {
+        width: 33.33333%;
+        height: 150px;
+    }
 }
 
 
@@ -181,5 +232,5 @@ section.service-cards .card h5 {
         transform: rotate(30deg);
         top: -2vw;
     }
-    
+
 }
