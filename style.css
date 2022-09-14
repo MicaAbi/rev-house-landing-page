@@ -25,21 +25,16 @@ body {
     background-color: #F6F8FF;
     padding: 22px;
     overflow: hidden;
-    background-image: url("./images/spacecraft-1.png");
+    background-image: url(./images/spacecraft-1.png);
     background-repeat: no-repeat;
-    background-position-x: 130%;
+    background-position-x: 90%;
     background-position-y: center;
-    background-size: 30%;
+    background-size: 40%;
 }
 
 .home-hero {
     z-index: 0;
 }
-
-/* 
-.home-hero div.col-9 {
-    padding-right: 20px;
-} */
 
 .top-title-and-underline-wrapper {
     height: 60px;
