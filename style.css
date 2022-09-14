@@ -22,7 +22,7 @@ body {
 
 #hero-container {
     background-color: #F6F8FF;
-    padding: 14px;
+    padding: 22px;
     overflow: hidden;
     background-image: url("./images/spacecraft-1.png");
     background-repeat: no-repeat;
@@ -35,10 +35,10 @@ body {
     z-index: 0;
 }
 
-
+/* 
 .home-hero div.col-9 {
     padding-right: 20px;
-}
+} */
 
 .top-title-and-underline-wrapper {
     height: 60px;
@@ -102,6 +102,7 @@ button.hero-button:hover {
     top: 5vw;
 }
 
+
 /* ========== SECTION: SERVICES ========== */
 
 section.service-cards .card {
@@ -112,6 +113,22 @@ section.service-cards .card {
 
 section.service-cards .card h5 {
     font-weight: 600;
+}
+
+
+/* ========== SECTION: CLIENTS ========== */
+
+section.clients-section {
+    background-color: #F6F8FF;
+}
+
+section.clients-section h2 {
+    font-weight: 600;
+}
+
+section.clients-section h6 {
+    width: 85%;
+    color: #475FE1;
 }
 
 
@@ -157,6 +174,7 @@ footer p.email {
     color: #FFFFFF;
 }
 
+
 /* ********** MEDIA QUERIES PANTALLA MD ********** */
 
 @media (min-width:650px) {
@@ -164,7 +182,7 @@ footer p.email {
     /* ========== SECTION: HERO ========== */
     #hero-container {
         background-color: #F6F8FF;
-        padding: 40px;
+        padding: 50px;
     }
     .home-hero div.col-9 {
         padding-right: 60px;
@@ -187,9 +205,12 @@ footer p.email {
     }
 
 
-    /* ========== SECTION: SERVICES ========== */
+    /* ========== SECTION: CLIENTS ========== */
+    section.clients-section h6 {
+        width: 60%;
+    }
 
-
+    
     /* ========== FOOTER ========== */
     footer {
         padding: 0px;
@@ -200,11 +221,20 @@ footer p.email {
     }
 }
 
+@media (min-width:768px) {
+
+    /* ========== SECTION: SERVICES ========== */
+    section.service-cards {
+        min-height: 350px;
+    }
+    section.service-cards .card {
+        min-height: 267px;
+    }
+}
 
 
 
 /* ********** MEDIA QUERIES PANTALLA LG ********** */
-
 
 @media (min-width:970px) {
     
@@ -233,4 +263,29 @@ footer p.email {
         top: -2vw;
     }
 
+    /* ========== SECTION: CLIENTS ========== */
+    section.clients-section h6 {
+        width: 48%;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    /* ========== SECTION: SERVICES ========== */
+    section.service-cards .card {
+        min-height: 194px;
+    }
+}
+
+
+
+/* ********** MEDIA QUERIES PANTALLA XL ********** */
+
+@media (min-width:1200px) {
+
+    /* ========== SECTION: SERVICES ========== */
+    section.service-cards .card {
+        min-height: 170px;
+    }
 }
